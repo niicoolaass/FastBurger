@@ -12,6 +12,8 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
     TextView txtMENUser;
     ImageButton btMENContatos, btMENPedidos, btMENMeusDados;
     String _email = "";
+    String _nome = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,13 +22,15 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
         Intent intencao = getIntent();
         Bundle paramertros = intencao.getExtras();
         _email = paramertros.getString("email");
+        _nome = paramertros.getString("nome");
+
 
         txtMENUser = (TextView) findViewById(R.id.txtMENUser);
         btMENContatos = (ImageButton) findViewById(R.id.btMENContatos);
         btMENPedidos = (ImageButton) findViewById(R.id.btMENPedidos);
         btMENMeusDados = (ImageButton) findViewById(R.id.btMENMeusDados);
 
-        txtMENUser.setText("Usuário: " + _email);
+        txtMENUser.setText("Usuário: " + _nome);
         btMENContatos.setOnClickListener(this);
         btMENPedidos.setOnClickListener(this);
         btMENMeusDados.setOnClickListener(this);
