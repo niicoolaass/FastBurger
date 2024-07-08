@@ -58,4 +58,5 @@
         android:layout_marginLeft="60dp"
         android:text="Cadastre-se"
         android:textSize="20dp" />
+
 </LinearLayout>
