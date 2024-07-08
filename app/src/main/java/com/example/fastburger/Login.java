@@ -26,6 +26,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
         btLOGAcessar.setOnClickListener(this);
         btLOGCadastro.setOnClickListener(this);
+
+
     }
 
     @Override

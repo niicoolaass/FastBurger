@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         btAlterar.setOnClickListener(this);
         btExcluir.setOnClickListener(this);
 
-
     }
 
     public void onClick(View v) {
