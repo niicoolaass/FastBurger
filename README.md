@@ -1,4 +1,4 @@
-# FastBurger
+# FastBurger Aplicativo
 
 Projeto desenvolvido durante a faculdade que envolve a criação de um aplicativo para uma hamburgueria com banco de dados SQLite usando o Android Studio.
 <hr>
